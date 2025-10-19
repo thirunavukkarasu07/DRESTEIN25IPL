@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Rohit Sharma",
+    "role": "Batsman",
+    "set": "Batsmen",
+    "basePrice": 2,
+    "country": "India",
+    "imageURL": "https://example.com/rohit.jpg",
+    "points": 0
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "role": "Bowler",
+    "set": "Bowlers",
+    "basePrice": 1.5,
+    "country": "India",
+    "imageURL": "https://example.com/bumrah.jpg",
+    "points": 0
+  }
+]

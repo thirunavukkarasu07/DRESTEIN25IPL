@@ -1,0 +1,9 @@
+teamName,members,department,email,password,approved,role,purseRemaining
+Team Alpha,"A;B;C",CSE,teamalpha@example.com,changeme,false,team,125
+Team Admin,"Organizer",Admin,admin@example.com,changeme,true,admin,125
+
+# Notes:
+# - members is a semicolon-separated list inside quotes
+# - password should be plain text here for import; it will be hashed on import
+# - approved: true/false
+# - role: team or admin

@@ -1,0 +1,22 @@
+[
+  {
+    "teamName": "Team Alpha",
+    "members": ["A","B","C"],
+    "department": "CSE",
+    "email": "teamalpha@example.com",
+    "password": "changeme",
+    "approved": false,
+    "role": "team",
+    "purseRemaining": 125
+  },
+  {
+    "teamName": "Team Admin",
+    "members": ["Organizer"],
+    "department": "Admin",
+    "email": "admin@example.com",
+    "password": "changeme",
+    "approved": true,
+    "role": "admin",
+    "purseRemaining": 125
+  }
+]
