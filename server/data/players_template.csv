@@ -1,9 +1,0 @@
-name,role,set,basePrice,country,imageURL,points
-Rohit Sharma,Batsman,Batsmen,2,India,https://example.com/rohit.jpg,0
-Jasprit Bumrah,Bowler,Bowlers,1.5,India,https://example.com/bumrah.jpg,0
-# Notes:
-# - `role` should be one of: Batsman,Bowler,All-Rounder,Wicketkeeper,Uncapped
-# - `set` is a tag/category used by the spin wheel; can match role or be custom
-# - `basePrice` is a number (in Crores); leave blank if unknown
-# - `imageURL` is optional
-# - `points` is optional hidden points for leaderboard

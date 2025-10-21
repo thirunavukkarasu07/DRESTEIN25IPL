@@ -1,50 +1,148 @@
-import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import Team from "../models/Team.js";
 
-export const registerTeam = async (req, res) => {
+// Generate JWT Token
+const generateToken = (id) => {
+  return jwt.sign({ id }, process.env.JWT_SECRET, {
+    expiresIn: "30d"
+  });
+};
+
+// @desc    Register a new team
+// @route   POST /api/auth/signup
+// @access  Public
+export const signup = async (req, res) => {
   try {
-    const { teamName, members, department, email, password } = req.body;
+    const { teamName, email, password } = req.body;
 
-    const existingTeam = await Team.findOne({ email });
-    if (existingTeam) return res.status(400).json({ message: "Team already registered" });
+    // Validation
+    if (!teamName || !email || !password) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide all required fields"
+      });
+    }
 
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    const newTeam = new Team({
-      teamName,
-      members,
-      department,
-      email,
-      passwordHash: hashedPassword,
+    // Check if team already exists
+    const teamExists = await Team.findOne({ 
+      $or: [{ email }, { teamName }] 
     });
 
-    await newTeam.save();
-    res.status(201).json({ message: "Team registered successfully" });
+    if (teamExists) {
+      return res.status(400).json({
+        success: false,
+        message: "Team with this email or name already exists"
+      });
+    }
 
+    // Create team
+    const team = await Team.create({
+      teamName,
+      email,
+      password
+    });
+
+    // Return team data with token
+    res.status(201).json({
+      success: true,
+      data: {
+        _id: team._id,
+        teamName: team.teamName,
+        email: team.email,
+        role: team.role,
+        purse: team.purse,
+        token: generateToken(team._id)
+      }
+    });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error("Signup error:", error);
+    res.status(500).json({
+      success: false,
+      message: "Error creating team",
+      error: error.message
+    });
   }
 };
 
-export const loginTeam = async (req, res) => {
+// @desc    Login team
+// @route   POST /api/auth/login
+// @access  Public
+export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    const team = await Team.findOne({ email });
-    if (!team) return res.status(404).json({ message: "Team not found" });
+    // Validation
+    if (!email || !password) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide email and password"
+      });
+    }
 
-    const isPasswordValid = await bcrypt.compare(password, team.passwordHash);
-    if (!isPasswordValid) return res.status(401).json({ message: "Invalid credentials" });
+    // Find team by email
+    const team = await Team.findOne({ email }).populate("franchise").populate("players");
 
-    const token = jwt.sign(
-      { id: team._id, email: team.email },
-      process.env.JWT_SECRET,
-      { expiresIn: "2h" }
-    );
+    if (!team) {
+      return res.status(401).json({
+        success: false,
+        message: "Invalid credentials"
+      });
+    }
 
-    res.json({ token, team: { id: team._id, teamName: team.teamName, email: team.email, approved: team.approved, role: team.role, purseRemaining: team.purseRemaining } });
+    // Check password
+    const isPasswordCorrect = await team.comparePassword(password);
+
+    if (!isPasswordCorrect) {
+      return res.status(401).json({
+        success: false,
+        message: "Invalid credentials"
+      });
+    }
+
+    // Return team data with token
+    res.status(200).json({
+      success: true,
+      data: {
+        _id: team._id,
+        teamName: team.teamName,
+        email: team.email,
+        role: team.role,
+        franchise: team.franchise,
+        purse: team.purse,
+        players: team.players,
+        token: generateToken(team._id)
+      }
+    });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error("Login error:", error);
+    res.status(500).json({
+      success: false,
+      message: "Error logging in",
+      error: error.message
+    });
+  }
+};
+
+// @desc    Get current logged in team
+// @route   GET /api/auth/me
+// @access  Private
+export const getMe = async (req, res) => {
+  try {
+    const team = await Team.findById(req.team._id)
+      .select("-password")
+      .populate("franchise")
+      .populate("players");
+
+    res.status(200).json({
+      success: true,
+      data: team
+    });
+  } catch (error) {
+    console.error("Get me error:", error);
+    res.status(500).json({
+      success: false,
+      message: "Error fetching team data",
+      error: error.message
+    });
   }
 };

@@ -1,31 +1,25 @@
 {
-  "name": "server",
+  "name": "hammer-time-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Backend for Hammer Time IPL Auction System",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
+  "keywords": ["ipl", "auction", "express", "mongodb"],
+  "author": "Your Team",
+  "license": "MIT",
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.14",
-    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
     "cors": "^2.8.5",
-    "csv-parse": "^6.1.0",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.1",
-    "mongodb": "^6.20.0",
-    "mongoose": "^8.19.1",
-    "multer": "^2.0.2",
-    "socket.io": "^4.7.2",
-    "tailwindcss": "^4.1.14"
-  },
-  "dependenciesMeta": {
-    "multer": {
-      "optional": false
-    }
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.0.2"
   }
 }
