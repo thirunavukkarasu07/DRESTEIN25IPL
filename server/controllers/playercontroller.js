@@ -216,3 +216,124 @@ export const bulkCreatePlayers = async (req, res) => {
     });
   }
 };
+
+// ============= NEW SET-BASED FUNCTIONS FOR SPIN WHEEL =============
+
+// @desc    Get all sets for a category with player count
+// @route   GET /api/players/sets/:category
+// @access  Private/Admin
+export const getSetsByCategory = async (req, res) => {
+  try {
+    const { category } = req.params;
+    
+    console.log(`📊 Fetching sets for category: ${category}`);
+    
+    // Validate category
+    const validCategories = ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper"];
+    if (!validCategories.includes(category)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid category. Must be: Batsman, Bowler, All-Rounder, or Wicket-Keeper"
+      });
+    }
+    
+    // Get all available players in this category grouped by set
+    const sets = await Player.aggregate([
+      {
+        $match: {
+          category: category,
+          status: 'available'
+        }
+      },
+      {
+        $group: {
+          _id: '$setNumber',
+          playerCount: { $sum: 1 },
+          players: { $push: '$name' }
+        }
+      },
+      {
+        $sort: { _id: 1 }
+      },
+      {
+        $project: {
+          setNumber: '$_id',
+          playerCount: 1,
+          players: 1,
+          _id: 0
+        }
+      }
+    ]);
+    
+    console.log(`✅ Found ${sets.length} sets for ${category}`);
+    
+    res.status(200).json({
+      success: true,
+      category: category,
+      totalSets: sets.length,
+      data: sets
+    });
+  } catch (error) {
+    console.error('❌ Error fetching sets:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching sets',
+      error: error.message
+    });
+  }
+};
+
+// @desc    Get random player from specific category and set
+// @route   GET /api/players/random/:category/:setNumber
+// @access  Private/Admin
+export const getRandomPlayerFromSet = async (req, res) => {
+  try {
+    const { category, setNumber } = req.params;
+    
+    console.log(`🎲 Getting random player from ${category} Set ${setNumber}`);
+    
+    // Validate category
+    const validCategories = ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper"];
+    if (!validCategories.includes(category)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid category. Must be: Batsman, Bowler, All-Rounder, or Wicket-Keeper"
+      });
+    }
+    
+    // Get all available players from this category and set
+    const players = await Player.find({
+      category: category,
+      setNumber: parseInt(setNumber),
+      status: 'available'
+    });
+    
+    if (players.length === 0) {
+      return res.status(404).json({
+        success: false,
+        message: `No available players found in ${category} Set ${setNumber}`
+      });
+    }
+    
+    // Get random player
+    const randomIndex = Math.floor(Math.random() * players.length);
+    const selectedPlayer = players[randomIndex];
+    
+    console.log(`✅ Selected player: ${selectedPlayer.name}`);
+    
+    res.status(200).json({
+      success: true,
+      category: category,
+      setNumber: parseInt(setNumber),
+      totalPlayersInSet: players.length,
+      data: selectedPlayer
+    });
+  } catch (error) {
+    console.error('❌ Error getting random player:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error getting random player',
+      error: error.message
+    });
+  }
+};

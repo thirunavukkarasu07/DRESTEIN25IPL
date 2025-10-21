@@ -6,12 +6,16 @@ import {
   updatePlayer,
   deletePlayer,
   getRandomPlayer,
-  bulkCreatePlayers
+  bulkCreatePlayers,
+  // New set-based functions
+  getSetsByCategory,
+  getRandomPlayerFromSet
 } from "../controllers/playercontroller.js";
 import { protect, adminOnly } from "../middleware/auth.js";
 
 const router = express.Router();
 
+// Existing routes (unchanged)
 router.get("/", protect, getAllPlayers);
 router.get("/random", protect, adminOnly, getRandomPlayer);
 router.get("/:id", protect, getPlayer);
@@ -20,4 +24,12 @@ router.post("/bulk", protect, adminOnly, bulkCreatePlayers);
 router.put("/:id", protect, adminOnly, updatePlayer);
 router.delete("/:id", protect, adminOnly, deletePlayer);
 
+// NEW: Set-based routes for spin wheel
+router.get("/sets/:category", protect, adminOnly, getSetsByCategory);
+router.get("/random/:category/:setNumber", protect, adminOnly, getRandomPlayerFromSet);
+
 export default router;
+
+
+
+

@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
 
   const loadUser = async () => {
     try {
-      const response = await axios.get(`${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms'}api/auth/me`);
+      const response = await axios.get(`${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms'}/api/auth/me`);
       setUser(response.data.data);
     } catch (error) {
       console.error('Load user error:', error);
@@ -41,7 +41,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       const response = await axios.post(
-        `${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms/'}api/auth/login`,
+        `${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms/'}/api/auth/login`,
         { email, password }
       );
       
@@ -61,7 +61,7 @@ export const AuthProvider = ({ children }) => {
   const signup = async (teamName, email, password) => {
     try {
       const response = await axios.post(
-        `${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms'}api/auth/signup`,
+        `${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms/'}/api/auth/signup`,
         { teamName, email, password }
       );
       
