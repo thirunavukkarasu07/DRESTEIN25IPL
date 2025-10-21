@@ -1,5 +1,7 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
+import api from '../utils/api';
+
 
 const AuthContext = createContext();
 
@@ -28,7 +30,7 @@ export const AuthProvider = ({ children }) => {
 
   const loadUser = async () => {
     try {
-      const response = await axios.get(`${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms'}api/auth/me`);
+      const response = await axios.get(`${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms'}/auth/me`);
       setUser(response.data.data);
     } catch (error) {
       console.error('Load user error:', error);
@@ -40,10 +42,11 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const response = await axios.post(
-        `${process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms/'}api/auth/login`,
+      const response = await api.post(
+        `${process.env.REACT_APP_API_URL}/auth/login`,
         { email, password }
       );
+      console.log(process.env.REACT_APP_API_URL);
       
       const { token, ...userData } = response.data.data;
       
@@ -54,6 +57,9 @@ export const AuthProvider = ({ children }) => {
       
       return response.data;
     } catch (error) {
+      console.log(process.env.REACT_APP_API_URL);
+      console.log("error in login",error);
+      
       throw error.response?.data || { message: 'Login failed' };
     }
   };

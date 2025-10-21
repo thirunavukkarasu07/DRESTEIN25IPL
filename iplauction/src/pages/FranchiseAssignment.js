@@ -15,8 +15,8 @@ const FranchiseAssignment = () => {
   const fetchData = async () => {
     try {
       const [teamsRes, franchisesRes] = await Promise.all([
-        api.get('api/teams'),
-        api.get('api/franchises')
+        api.get('/teams'),
+        api.get('/franchises')
       ]);
       setTeams(teamsRes.data.data);
       setFranchises(franchisesRes.data.data);
@@ -35,7 +35,7 @@ const FranchiseAssignment = () => {
     setMessage('');
 
     try {
-      await api.post(`api/franchises/${franchiseId}/assign`, { teamId });
+      await api.post(`/franchises/${franchiseId}/assign`, { teamId });
       setMessage('Franchise assigned successfully! ✅');
       fetchData(); // Refresh data
       setTimeout(() => setMessage(''), 3000);

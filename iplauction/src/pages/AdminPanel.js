@@ -22,9 +22,9 @@ const AdminPanel = () => {
   const fetchData = async () => {
     try {
       const [teamsRes, playersRes, franchisesRes] = await Promise.all([
-        api.get('api/teams'),
-        api.get('api/players'),
-        api.get('api/franchises')
+        api.get('/teams'),
+        api.get('/players'),
+        api.get('/franchises')
       ]);
 
       setTeams(teamsRes.data.data);
@@ -48,7 +48,7 @@ const AdminPanel = () => {
   const handleResetAuction = async () => {
     if (window.confirm('Are you sure you want to reset the auction? This will clear all player assignments and reset team purses.')) {
       try {
-        await api.post('api/auction/reset');
+        await api.post('/auction/reset');
         alert('Auction reset successfully!');
         fetchData();
       } catch (error) {

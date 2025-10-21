@@ -99,7 +99,7 @@ const Navbar = () => {
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   transition={{ duration: 0.6, type: "spring" }}
                 >
-                  {/* Outer Glow Ring */}
+                  {/* Outer Glow Ring */} 
                   <motion.div 
                     className="absolute -inset-2 bg-gradient-to-r from-blue-400 via-green-400 to-yellow-400 rounded-full blur-xl opacity-60"
                     animate={{ 

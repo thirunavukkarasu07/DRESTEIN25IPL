@@ -66,7 +66,7 @@ const SpinWheel = () => {
 
     // Call API to get random category
     try {
-      const response = await api.post('api/auction/spin');
+      const response = await api.post('/auction/spin');
       const selectedCategory = response.data.data.category;
       setResult(selectedCategory);
       setShowConfetti(true);
@@ -87,7 +87,7 @@ const SpinWheel = () => {
     if (!result) return;
 
     try {
-      const response = await api.post('api/auction/get-player', { category: result });
+      const response = await api.post('/auction/get-player', { category: result });
       navigate('/player-display', { state: { player: response.data.data.player } });
     } catch (error) {
       console.error('Error getting player:', error);

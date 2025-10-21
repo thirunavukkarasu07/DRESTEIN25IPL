@@ -18,7 +18,7 @@ const TeamDashboard = () => {
 
   const fetchTeamData = async () => {
     try {
-      const response = await api.get(`api/teams/${user._id}`);
+      const response = await api.get(`/teams/${user._id}`);
       setTeamData(response.data.data);
     } catch (error) {
       console.error('Error fetching team data:', error);
