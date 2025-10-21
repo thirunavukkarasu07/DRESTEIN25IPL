@@ -22,7 +22,7 @@ const PlayerDisplay = () => {
 
   const fetchTeams = async () => {
     try {
-      const response = await api.get('api/teams');
+      const response = await api.get('/teams');
       setTeams(response.data.data);
     } catch (error) {
       console.error('Error fetching teams:', error);
@@ -31,7 +31,7 @@ const PlayerDisplay = () => {
 
   const fetchCurrentAuctionPlayer = async () => {
     try {
-      const response = await api.get('api/auction/status');
+      const response = await api.get('/auction/status');
       if (response.data.data.currentPlayer) {
         setPlayer(response.data.data.currentPlayer);
       }
@@ -49,7 +49,7 @@ const PlayerDisplay = () => {
 
     setLoading(true);
     try {
-      await api.post('api/auction/sell', {
+      await api.post('/auction/sell', {
         playerId: player._id,
         teamId: selectedTeam,
         soldPrice: parseFloat(soldPrice)
@@ -72,7 +72,7 @@ const PlayerDisplay = () => {
     if (!window.confirm('Mark this player as unsold?')) return;
 
     try {
-      await api.post('api/auction/unsold', { playerId: player._id });
+      await api.post('/auction/unsold', { playerId: player._id });
       alert('Player marked as unsold');
       setPlayer(null);
     } catch (error) {

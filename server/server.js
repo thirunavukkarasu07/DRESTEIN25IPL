@@ -20,6 +20,7 @@ app.use(cors({
     if (!origin) return callback(null, true);
     return callback(null, true);
   },
+  // origin:['http://localhost:3000','http://localhost:3000/login'],
   credentials: true,
   method:["GET","POST","PUT","DELETE","PATCH","OPTIONS"],
   allowedHeaders:["Content-Type","Authorization","X-Requested-With","Accept"],
@@ -31,10 +32,10 @@ app.use(express.urlencoded({ extended: true }));
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("✅ MongoDB Connected Successfully"))
+  .then(() => console.log(" MongoDB Connected Successfully"))
   .catch(err => {
     console.error("❌ MongoDB Connection Error:", err);
-    process.exit(1);
+    process.exit(1);  
   });
 
 // Routes

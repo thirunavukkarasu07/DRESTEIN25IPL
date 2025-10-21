@@ -16,7 +16,7 @@ const Leaderboard = () => {
 
   const fetchLeaderboard = async () => {
     try {
-      const response = await api.get('api/teams/leaderboard');
+      const response = await api.get('/teams/leaderboard');
       setLeaderboard(response.data.data);
       
     } catch (error) {
@@ -81,21 +81,21 @@ const Leaderboard = () => {
                       index === 2 ? 'border-orange-600' : ''
                     }`}
                   >
-                    <div className="flex items-center justify-between">
+                    <div className=" md:flex md:items-center md:justify-between">
                       <div className="flex items-center space-x-6">
                         <div className="text-4xl font-bold w-16 text-center">
                           {getMedalEmoji(team.rank) || `#${team.rank}`}
                         </div>
                         
                         <div>
-                          <h3 className="text-2xl font-bold">{team.teamName}</h3>
+                          <h3 className="text-lg md:text-2xl text-blue-400 font-bold">{team.teamName}</h3>
                           {team.franchise && (
-                            <p className="text-gray-400 text-sm">{team.franchise.name}</p>
+                            <p className="text-purple-500 font-semibold text-sm">{team.franchise.name}</p>
                           )}
                         </div>
                       </div>
 
-                      <div className="grid grid-cols-4 gap-8 text-center">
+                      <div className="mt-2 grid grid-cols-4 gap-8 text-center">
                         <div>
                           <p className="text-gray-400 text-sm">Spent</p>
                           <p className="text-xl font-bold text-red-400">

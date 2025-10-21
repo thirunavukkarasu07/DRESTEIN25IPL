@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'https://jz42r90t-5000.inc1.devtunnels.ms/api',
+  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/'   ,
   headers: {
     'Content-Type': 'application/json',
   },
