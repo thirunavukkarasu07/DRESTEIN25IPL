@@ -4,6 +4,8 @@ import { useAuth } from '../context/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
 
+// No import needed - logo is in public folder
+
 const Navbar = () => {
   const { user, isAuthenticated, isAdmin, logout } = useAuth();
   const navigate = useNavigate();
@@ -114,9 +116,16 @@ const Navbar = () => {
                   {/* Main Logo */}
                   <div className="relative">
                     <img 
-                      src="/IT_Events_logo.png" 
+                      src="/IT_Events_logo.png"
                       alt="Hammer Time Logo" 
                       className="w-16 h-16 object-contain relative z-10 filter drop-shadow-2xl"
+                      onError={(e) => {
+                        console.error('Logo failed to load from public folder');
+                        console.error('Tried to load:', e.target.src);
+                      }}
+                      onLoad={() => {
+                        console.log('✅ Logo loaded successfully from public folder!');
+                      }}
                     />
                   </div>
                 </motion.div>

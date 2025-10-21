@@ -16,9 +16,16 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: '*',
-  credentials: true
+  origin: function(origin,callback){
+    if (!origin) return callback(null, true);
+    return callback(null, true);
+  },
+  credentials: true,
+  method:["GET","POST","PUT","DELETE","PATCH","OPTIONS"],
+  allowedHeaders:["Content-Type","Authorization","X-Requested-With","Accept"],
+  optionsSuccessStatus:200
 }));
+app.options('*',cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
