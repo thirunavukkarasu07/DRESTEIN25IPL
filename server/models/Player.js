@@ -11,17 +11,11 @@ const playerSchema = new mongoose.Schema({
     enum: ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper"],
     required: true
   },
-  setNumber: {
-    type: Number,
-    required: [true, "Set number is required"],
-    min: 1,
-    max: 20 // Assuming max 20 sets per category
-  },
   basePrice: {
     type: Number,
     required: true,
-    min: 0.5,
-    max: 10
+    min: 0.5, // Minimum 50 lakhs
+    max: 10   // Maximum 10 crores
   },
   soldPrice: {
     type: Number,
@@ -66,6 +60,9 @@ const playerSchema = new mongoose.Schema({
 });
 
 // Index for faster queries
-playerSchema.index({ category: 1, setNumber: 1, status: 1 });
+playerSchema.index({ category: 1, status: 1 });
+playerSchema.index({ team: 1 });
 
-export default mongoose.model("Player", playerSchema);
+const Player = mongoose.model("Player", playerSchema);
+
+export default Player;

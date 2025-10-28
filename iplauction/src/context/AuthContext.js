@@ -67,7 +67,7 @@ export const AuthProvider = ({ children }) => {
   const signup = async (teamName, email, password) => {
     try {
       const response = await axios.post(
-        `${process.env.REACT_APP_API_URL }/api/auth/signup`,
+        `${process.env.REACT_APP_API_URL }/auth/signup`,
         { teamName, email, password }
       );
       
