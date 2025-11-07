@@ -26,9 +26,12 @@ const AdminPanel = () => {
         api.get('/players'),
         api.get('/franchises')
       ]);
-
+     
+      
       setTeams(teamsRes.data.data);
+      
       setPlayers(playersRes.data.data);
+      
       setFranchises(franchisesRes.data.data);
 
       const sold = playersRes.data.data.filter(p => p.status === 'sold').length;
@@ -170,8 +173,9 @@ const AdminPanel = () => {
           <div className="card p-6">
             <h2 className="text-2xl font-bold mb-4">Players by Category</h2>
             <div className="grid md:grid-cols-4 gap-4">
-              {['Batsman', 'Bowler', 'All-Rounder', 'Wicket-Keeper'].map((category) => {
+              {['Batsman', 'Bowler', 'All-Rounder', 'Wicket-keeper'].map((category) => {
                 const categoryPlayers = players.filter(p => p.category === category);
+                
                 const sold = categoryPlayers.filter(p => p.status === 'sold').length;
                 const available = categoryPlayers.filter(p => p.status === 'available').length;
                 

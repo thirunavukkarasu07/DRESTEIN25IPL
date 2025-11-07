@@ -79,20 +79,14 @@ const FranchiseAssignment = () => {
               whileHover={{ scale: 1.02 }}
             >
               <div className="flex items-center mb-4">
-                <div
-                  className="w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mr-4"
-                  style={{ 
-                    backgroundColor: franchise.primaryColor,
-                    color: 'white'
-                  }}
-                >
-                  {franchise.shortName}
-                </div>
+                <img className='rounded-full' src={`./${franchise.shortName}.png`} width={60} height={60} alt="" />
+                 
                 <div>
                   <h3 className="text-xl font-bold">{franchise.name}</h3>
                   <p className="text-sm text-gray-400">{franchise.city}</p>
                 </div>
               </div>
+              
 
               {franchise.isAssigned && franchise.assignedTeam ? (
                 <div className="bg-green-500/20 border border-green-500 rounded-lg p-3 mb-4">

@@ -205,7 +205,7 @@ const SpinWheel = () => {
             </motion.div>
           )}
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="flex justify-center   gap-12 items-center">
             {/* Wheel Container - Only show when category is selected */}
             {selectedCategory && (
               <motion.div 
@@ -345,7 +345,7 @@ const SpinWheel = () => {
             )}
 
             {/* Result Display */}
-            <div className="space-y-6">
+            <div className="space-y-6 ms-">
               {player ? (
                 <motion.div
                   initial={{ scale: 0, rotate: -180 }}
@@ -431,7 +431,7 @@ const SpinWheel = () => {
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="card p-10 text-center"
+                  className=" card p-10 text-center  "
                 >
                   <div className="text-6xl mb-4">🎯</div>
                   <h3 className="text-2xl font-bold mb-4 text-slate-300">
