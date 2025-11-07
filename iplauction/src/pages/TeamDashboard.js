@@ -84,25 +84,18 @@ const TeamDashboard = () => {
                 {teamData?.players?.length || 0}
               </p>
               <p className="text-sm text-gray-400 mt-1">
-                Overseas: {overseasCount}/4
+                Overseas: {overseasCount}/7
               </p>
             </motion.div>
           </div>
-
+    
           {/* Franchise Info */}
           {teamData?.franchise ? (
             <div className="card p-6 mb-8">
               <h2 className="text-2xl font-bold mb-4">Your Franchise</h2>
               <div className="flex items-center space-x-4">
-                <div 
-                  className="w-24 h-24 rounded-full flex items-center justify-center text-4xl"
-                  style={{ 
-                    backgroundColor: teamData.franchise.primaryColor || '#3b82f6',
-                    color: 'white'
-                  }}
-                >
-                  {teamData.franchise.shortName}
-                </div>
+                <img className='rounded-full' src={`./${teamData.franchise.shortName}.png`} width={60} height={60} alt="" />
+
                 <div>
                   <h3 className="text-xl font-bold">{teamData.franchise.name}</h3>
                   <p className="text-gray-400">{teamData.franchise.city}</p>
