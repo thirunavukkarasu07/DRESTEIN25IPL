@@ -229,11 +229,11 @@ export const getSetsByCategory = async (req, res) => {
     console.log(`📊 Fetching sets for category: ${category}`);
     
     // Validate category
-    const validCategories = ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper"];
+    const validCategories = ["Batsman", "Bowler", "All-Rounder", "Wicket-keeper"];
     if (!validCategories.includes(category)) {
       return res.status(400).json({
         success: false,
-        message: "Invalid category. Must be: Batsman, Bowler, All-Rounder, or Wicket-Keeper"
+        message: "Invalid category. Must be: Batsman, Bowler, All-Rounder, or Wicket-keeper"
       });
     }
     
@@ -293,11 +293,11 @@ export const getRandomPlayerFromSet = async (req, res) => {
     console.log(`🎲 Getting random player from ${category} Set ${setNumber}`);
     
     // Validate category
-    const validCategories = ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper"];
+    const validCategories = ["Batsman", "Bowler", "All-Rounder", "Wicket-keeper"];
     if (!validCategories.includes(category)) {
       return res.status(400).json({
         success: false,
-        message: "Invalid category. Must be: Batsman, Bowler, All-Rounder, or Wicket-Keeper"
+        message: "Invalid category. Must be: Batsman, Bowler, All-Rounder, or Wicket-keeper"
       });
     }
     

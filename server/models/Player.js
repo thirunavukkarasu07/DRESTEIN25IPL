@@ -8,13 +8,13 @@ const playerSchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    enum: ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper"],
+    enum: ["Batsman", "Bowler", "All-Rounder", "Wicket-keeper"],
     required: true
   },
   basePrice: {
     type: Number,
     required: true,
-    min: 0.5, // Minimum 50 lakhs
+    min: 0.1, // Minimum 50 lakhs
     max: 10   // Maximum 10 crores
   },
   soldPrice: {

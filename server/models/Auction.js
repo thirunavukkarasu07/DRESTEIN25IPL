@@ -8,7 +8,7 @@ const auctionSchema = new mongoose.Schema({
   },
   currentSet: {
     type: String,
-    enum: ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper", null],
+    enum: ["Batsman", "Bowler", "All-Rounder", "Wicket-keeper", null],
     default: null
   },
   isActive: {

@@ -1,0 +1,1970 @@
+{
+  "Set 1": [
+    {
+      "name": "Jos Buttler",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Shreyas Iyer",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Rishabh Pant",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Kagiso Rabada",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Arshdeep Singh",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Mitchell Starc",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Yuzvendra Chahal",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Liam Livingstone",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "David Miller",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "KL Rahul",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Mohammed Shami",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Mohammed Siraj",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 2": [
+    {
+      "name": "Harry Brook",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Devon Conway",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Jake Fraser-McGurk",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Aiden Markram",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Devdutt Padikkal",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Rahul Tripathi",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "David Warner",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Ravichandran Ashwin",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Venkatesh Iyer",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Mitchell Marsh",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Glenn Maxwell",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Harshal Patel",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Rachin Ravindra",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Marcus Stoinis",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 3": [
+    {
+      "name": "Jonny Bairstow",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Quinton de Kock",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Rahmanullah Gurbaz",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Ishan Kishan",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Phil Salt",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Jitesh Sharma",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    }
+  ],
+  "Set 4": [
+    {
+      "name": "Khaleel Ahmed",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Trent Boult",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Avesh Khan",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Prasidh Krishna",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "T Natarajan",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Anrich Nortje",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 5": [
+    {
+      "name": "Noor Ahmad",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Rahul Chahar",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Wanindu Hasaranga",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Waqar Salamkheil",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Maheesh Theekshana",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Adam Zampa",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 6": [
+    {
+      "name": "Yash Dhull",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Abhinav Manohar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Karun Nair",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Angkrish Raghuvanshi",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Anmolpreet Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Atharva Taide",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Nehal Wadhera",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Harpreet Brar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Naman Dhir",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Mahipal Lomror",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 50 lakh"
+    },
+    {
+      "name": "Sameer Rizvi",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Abdul Samad",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Vijay Shankar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Ashutosh Sharma",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Nishant Sindhu",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 7": [
+    {
+      "name": "Utkarsh Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Aryan Juyal",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Kumar Kushagra",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Robin Minz",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Anuj Rawat",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Luvnith Sisodia",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Vishnu Vinod",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Upendra Singh Yadav",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 8": [
+    {
+      "name": "Vaibhav Arora",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Rasikh Dar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Akash Madhwal",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Mohit Sharma",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 50 lakh"
+    },
+    {
+      "name": "Simarjeet Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Yash Thakur",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Kartik Tyagi",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 40 lakh"
+    },
+    {
+      "name": "Vyshak Vijaykumar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 9": [
+    {
+      "name": "Piyush Chawla",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 50 lakh"
+    },
+    {
+      "name": "Shreyas Gopal",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Mayank Markande",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Suyash Sharma",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Karn Sharma",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 50 lakh"
+    },
+    {
+      "name": "Kumar Kartikeya Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Manav Suthar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 10": [
+    {
+      "name": "Mayank Agarwal",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Faf du Plessis",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Glenn Phillips",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Rovman Powell",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Prithvi Shaw",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Kane Williamson",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 11": [
+    {
+      "name": "Sam Curran",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Marco Jansen",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Daryl Mitchell",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Krunal Pandya",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Nitish Rana",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Washington Sundar",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Shardul Thakur",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 12": [
+    {
+      "name": "KS Bharat",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Alex Carey",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Donovan Ferreira",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Shai Hope",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Josh Inglis",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Ryan Rickelton",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    }
+  ],
+  "Set 13": [
+    {
+      "name": "Deepak Chahar",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Gerald Coetzee",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Akash Deep",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Tushar Deshpande",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Lockie Ferguson",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Bhuvneshwar Kumar",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Mukesh Kumar",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 14": [
+    {
+      "name": "Allah Ghazanfar",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Akeal Hosein",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Keshav Maharaj",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Mujeeb Ur Rahman",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Adil Rashid",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Vijayakanth Viyaskanth",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    }
+  ],
+  "Set 15": [
+    {
+      "name": "Ricky Bhui",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Swastik Chhikara",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Aarya Desai",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Shubham Dubey",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Madhav Kaushik",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Pukhraj Mann",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Shaik Rasheed",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 16": [
+    {
+      "name": "Himmat Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Mayank Dagar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Anshul Kamboj",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Arshad Khan",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Darshan Nalkande",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Suyash Prabhudessai",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Anukul Roy",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Swapnil Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Sanvir Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 17": [
+    {
+      "name": "Avanish Aravelly",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Vansh Bedi",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Saurav Chauhan",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Harvik Desai",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Tom Kohler-Cadmore",
+      "nationality": "England",
+      "status": "Uncapped",
+      "basePrice": "Rs 50 lakh"
+    },
+    {
+      "name": "Kunal Singh Rathore",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "BR Sharath",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 18": [
+    {
+      "name": "Gurnoor Singh Brar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Sakib Hussain",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Vidwath Kaverappa",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Rajan Kumar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Sushant Mishra",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Arjun Tendulkar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 19": [
+    {
+      "name": "Zeeshan Ansari",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Prince Choudhary",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Himanshu Sharma",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "M Siddharth",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Digvesh Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Prashant Solanki",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Jhathavedh Subramanyan",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 20": [
+    {
+      "name": "Finn Allen",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Dewald Brevis",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Ben Duckett",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Manish Pandey",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Rilee Rossouw",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Sherfane Rutherford",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Ashton Turner",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "James Vince",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 21": [
+    {
+      "name": "Shahbaz Ahamad",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Moeen Ali",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Tim David",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Deepak Hooda",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Will Jacks",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Azmatullah Omarzai",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "R Sai Kishore",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Romario Shepherd",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    }
+  ],
+  "Set 22": [
+    {
+      "name": "Tom Banton",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Sam Billings",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Jordan Cox",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Ben McDermott",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Kusal Mendis",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Kusal Perera",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Josh Philippe",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Tim Seifert",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    }
+  ],
+  "Set 23": [
+    {
+      "name": "Nandre Burger",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Spencer Johnson",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Umran Malik",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Mustafizur Rahman",
+      "nationality": "Bangladesh",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Ishant Sharma",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Nuwan Thushara",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Naveen-ul-Haq",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Jaydev Unadkat",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Umesh Yadav",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 24": [
+    {
+      "name": "Rishad Hossain",
+      "nationality": "Bangladesh",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Zahir Khan",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Nqabayomzi Peter",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Tanveer Sangha",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Tabraiz Shamsi",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Jeffery Vandersay",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    }
+  ],
+  "Set 25": [
+    {
+      "name": "Sachin Baby",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Priyam Garg",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Harnoor Pannu",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Smaran Ravichandran",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Shashwat Rawat",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Andre Siddarth",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 26": [
+    {
+      "name": "Avneesh Sudha",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Apoorv Wankhade",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Yudhvir Charak",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Rishi Dhawan",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Rajvardhan Hangargekar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Tanush Kotian",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Arshin Kulkarni",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Shams Mulani",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Shivam Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Lalit Yadav",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ],
+  "Set 27": [
+    {
+      "name": "Sediqullah Atal",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Matthew Breetzke",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Mark Chapman",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Brandon King",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Evin Lewis",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Pathum Nissanka",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Bhanuka Rajapaksa",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Steve Smith",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    }
+  ],
+  "Set 28": [
+    {
+      "name": "Gus Atkinson",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Tom Curran",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Krishnappa Gowtham",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Mohammad Nabi",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Gulbadin Naib",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Sikandar Raza",
+      "nationality": "Zimbabwe",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Mitchell Santner",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Jayant Yadav",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    }
+  ],
+  "Set 29": [
+    {
+      "name": "Johnson Charles",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Litton Das",
+      "nationality": "Bangladesh",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Andre Fletcher",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Tom Latham",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Ollie Pope",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Kyle Verreynne",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    }
+  ],
+  "Accelerated": [
+    {
+      "name": "Fazalhaq Farooqi",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Richard Gleeson",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Matt Henry",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Alzarri Joseph",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Kwena Maphaka",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Kuldeep Sen",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Reece Topley",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Lizaad Williams",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Luke Wood",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Sachin Dhas",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Leus du Plooy",
+      "nationality": "England",
+      "status": "Uncapped",
+      "basePrice": "Rs 50 lakh"
+    },
+    {
+      "name": "Ashwin Hebbar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Rohan Kunnummal",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Ayush Pandey",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Akshat Raghuwanshi",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Shoun Roger",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 40 lakh"
+    },
+    {
+      "name": "Virat Singh",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Priyansh Arya",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Manoj Bhandage",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Pravin Dubey",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Ajay Mandal",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Prerak Mankad",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Vipraj Nigam",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Vicky Ostwal",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Shivalik Sharma",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Salil Arora",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Dinesh Bana",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Ajitesh Guruswamy",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Narayan Jagadeesan",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Towhid Hridoy",
+      "nationality": "Bangladesh",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Mikyle Louis",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Harry Tector",
+      "nationality": "Ireland",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Rassie van der Dussen",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Will Young",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Najibullah Zadran",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Ibrahim Zadran",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Sean Abbott",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Jacob Bethell",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Brydon Carse",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Aaron Hardie",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Sarfaraz Khan",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Kyle Mayers",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Kamindu Mendis",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Matthew Short",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Jason Behrendorff",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Dushmantha Chameera",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Nathan Ellis",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Shamar Joseph",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Josh Little",
+      "nationality": "Ireland",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Shivam Mavi",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Jhye Richardson",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Navdeep Saini",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Tanmay Agarwal",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Amandeep Khare",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Ayush Mhatre",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Salman Nizar",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Aniket Verma",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Michael Bracewell",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Gudakesh Motie",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Daniel Mousley",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Jamie Overton",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Dunith Wellalage",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Ottneil Baartman",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Xavier Bartlett",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Dilshan Madushanka",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Adam Milne",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Lungisani Ngidi",
+      "nationality": "South Africa",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "William O’Rourke",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Chetan Sakariya",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Sandeep Warrier",
+      "nationality": "India",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Unmukt Chand",
+      "nationality": "USA",
+      "status": "capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Tejasvi Dahiya",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Baba Indrajith",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    },
+    {
+      "name": "Cooper Connolly",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Dushan Hemantha",
+      "nationality": "Sri Lanka",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Jason Holder",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 2 crore"
+    },
+    {
+      "name": "Karim Janat",
+      "nationality": "Afghanistan",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Jimmy Neesham",
+      "nationality": "New Zealand",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Daniel Sams",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "William Sutherland",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Taskin Ahmed",
+      "nationality": "Bangladesh",
+      "status": "Capped",
+      "basePrice": "Rs 1 crore"
+    },
+    {
+      "name": "Ben Dwarshuis",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Obed McCoy",
+      "nationality": "West Indies",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Riley Meredith",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Lance Morris",
+      "nationality": "Australia",
+      "status": "Capped",
+      "basePrice": "Rs 1.25 crore"
+    },
+    {
+      "name": "Olly Stone",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 75 lakh"
+    },
+    {
+      "name": "Daniel Worrall",
+      "nationality": "England",
+      "status": "Capped",
+      "basePrice": "Rs 1.5 crore"
+    },
+    {
+      "name": "Tushar Raheja",
+      "nationality": "India",
+      "status": "Uncapped",
+      "basePrice": "Rs 30 lakh"
+    }
+  ]
+}

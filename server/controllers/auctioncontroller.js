@@ -43,7 +43,7 @@ export const getAuctionStatus = async (req, res) => {
 // @access  Private/Admin
 export const spinWheel = async (req, res) => {
   try {
-    const categories = ["Batsman", "Bowler", "All-Rounder", "Wicket-Keeper"];
+    const categories = ["Batsman", "Bowler", "All-Rounder", "Wicket-keeper"];
     const randomCategory = categories[Math.floor(Math.random() * categories.length)];
 
     let auction = await Auction.findOne();
@@ -82,6 +82,7 @@ export const spinWheel = async (req, res) => {
 export const getCurrentPlayer = async (req, res) => {
   try {
     const { category } = req.body;
+    console.log(req.body);
 
     if (!category) {
       return res.status(400).json({
@@ -90,9 +91,22 @@ export const getCurrentPlayer = async (req, res) => {
       });
     }
 
-    // Find available players in this category
+    // Normalize category input to match stored enum values (case/spacing/hyphen tolerant)
+    const allowedCategories = ["Batsman", "Bowler", "All-Rounder", "Wicket-keeper"];
+    const normalize = (str) => String(str || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const incoming = normalize(category);
+    const canonical = allowedCategories.find(c => normalize(c) === incoming);
+
+    if (!canonical) {
+      return res.status(400).json({
+        success: false,
+        message: `Unknown category '${category}'`
+      });
+    }
+
+    // Find available players in this category (use canonical enum value)
     const availablePlayers = await Player.find({
-      category,
+      category: canonical,
       status: "available"
     });
 
@@ -141,7 +155,8 @@ export const getCurrentPlayer = async (req, res) => {
 export const sellPlayer = async (req, res) => {
   try {
     const { playerId, teamId, soldPrice } = req.body;
-
+    console.log(req.body);
+    
     if (!playerId || !teamId || !soldPrice) {
       return res.status(400).json({
         success: false,
@@ -308,7 +323,7 @@ export const resetAuction = async (req, res) => {
     await Team.updateMany(
       {},
       { 
-        purse: 100, 
+        purse: 125, 
         players: [] 
       }
     );

@@ -24,9 +24,6 @@ router.post("/bulk", protect, adminOnly, bulkCreatePlayers);
 router.put("/:id", protect, adminOnly, updatePlayer);
 router.delete("/:id", protect, adminOnly, deletePlayer);
 
-// NEW: Set-based routes for spin wheel
-router.get("/sets/:category", protect, adminOnly, getSetsByCategory);
-router.get("/random/:category/:setNumber", protect, adminOnly, getRandomPlayerFromSet);
 
 export default router;
 

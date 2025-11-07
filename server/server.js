@@ -9,7 +9,7 @@ import teamRoutes from "./routes/teams.js";
 import playerRoutes from "./routes/players.js";
 import franchiseRoutes from "./routes/Franchises.js";
 import auctionRoutes from "./routes/auction.js";
-
+import setRoutes from "./routes/set.js";
 dotenv.config();
 
 const app = express();
@@ -52,6 +52,7 @@ app.use("/api/teams", teamRoutes);
 app.use("/api/players", playerRoutes);
 app.use("/api/franchises", franchiseRoutes);
 app.use("/api/auction", auctionRoutes);
+app.use("/api/sets", setRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
