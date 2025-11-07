@@ -196,10 +196,10 @@ export const sellPlayer = async (req, res) => {
         isOverseas: true
       });
 
-      if (overseasCount >= 4) {
+      if (overseasCount >= 7) {
         return res.status(400).json({
           success: false,
-          message: "Maximum overseas player limit (4) reached"
+          message: "Maximum overseas player limit (7) reached"
         });
       }
     }
